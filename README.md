@@ -24,4 +24,18 @@ After loading the **Battery Library** into your Modelica environment, follow the
 
 ![Step 4](Images/Step4.png)
 
-Finally, run the simulation to observe the outputs **state of charge, voltage, and power**.  
+Run the simulation to observe the outputs
+
+### Simulation Results
+#### State of Charge (SOC)
+![SOC](Images/SOC.png)
+The state of charge curve shows that under a constant discharge of 20 A, the configured battery is fully depleted after approximately 9.4 hours. This highlights the effective capacity of the chosen configuration.
+
+
+#### Voltage
+![Voltage](Images/Voltage.png)
+The voltage curve indicates that the battery begins at a maximum voltage of around 16.9 V at 100% SOC. As the state of charge decreases, the voltage gradually drops, which is clearly visible in the graph. This trend follows the expected OCV–SoC relationship for the selected chemistry.
+
+#### Power
+![Power](Images/Power.png)
+The power graph illustrates the instantaneous output power of the battery throughout the discharge cycle. At the beginning, the power is higher due to the combination of high voltage and constant current. As the SOC decreases and the voltage drops, the available power also decreases proportionally. This graph is particularly useful for understanding how the battery delivers energy over time and for evaluating performance under different load conditions.
