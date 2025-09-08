@@ -18,7 +18,7 @@ After loading the **Battery Library** into your Modelica environment, follow the
 
 **Step 3:** Since this is a pre-configured battery model, all chemistry-related parameters are already defined based on the physics of the chosen cell. You only need to adjust the **Ns** (number of series cells) and **Np** (number of parallel cells) according to your desired configuration. 
 
-![Step 3](Images/Step3.png)
+![Step 3](Images/Step3U.png)
 
 **Step 4:** Proceed to the testing environment. Drag and drop the customized **LFPBattery** into the workspace. Apply a constant current input (for example, 20 A to represent a continuous 20-ampere discharge from the battery).  
 
