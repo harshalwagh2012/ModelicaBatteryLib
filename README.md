@@ -1,4 +1,4 @@
-# ModelicaBatteryLib
+# Modelica Battery Library
 A Modelica-based library that provides researchers and engineers with a platform to model and experiment with different battery chemistries.
 The library is designed to make it easier to simulate custom battery models, validate new chemistries, and analyze performance within system-level simulations.
 
